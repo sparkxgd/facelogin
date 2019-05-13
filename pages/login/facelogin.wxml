@@ -1,0 +1,4 @@
+<!--pages/facelogin/facelogin.wxml-->
+<camera device-position="front" flash="auto" style="width: 100%; height: 450px;"></camera>
+<button type="primary" bindtap="takePhoto">登录</button>
+<view>{{resultt}}</view>
